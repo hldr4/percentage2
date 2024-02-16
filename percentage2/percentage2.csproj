@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <OutputType>WinExe</OutputType>
+	<SelfContained>false</SelfContained>
+	<PublishSingleFile>true</PublishSingleFile>
+	<DebugType>None</DebugType>
+	<UseAppHost>true</UseAppHost>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.0.0</ApplicationVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>x86;x64</Platforms>
+    <GenerateManifests>false</GenerateManifests>
+    <ApplicationIcon>percentage2.ico</ApplicationIcon>
+  </PropertyGroup>
+</Project>

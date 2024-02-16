@@ -1,0 +1,7 @@
+bak/
+.vs
+percentage2/Properties
+percentage2/bin
+percentage2/obj
+
+*.user
