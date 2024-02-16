@@ -22,7 +22,7 @@ See current battery percentage and charging status in the Windows system tray
 
 This project was compiled with Visual Studio Community 2022.
 
-1. Open the percentage2/percentage2.sln file with Visual Studio
+1. Open the percentage2.sln file with Visual Studio
 2. Click "Build > Build Solution"
 3. Output can be found in the bin folder
 
