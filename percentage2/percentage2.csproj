@@ -7,8 +7,6 @@
 	<PublishSingleFile>true</PublishSingleFile>
 	<DebugType>None</DebugType>
 	<UseAppHost>true</UseAppHost>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>publish\</PublishUrl>
     <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>2.0.0</ApplicationVersion>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
