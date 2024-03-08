@@ -62,7 +62,14 @@ namespace percentage
             Color fontColor = Color.Ivory;
             if (Charging)
                 {
-                    fontColor = Color.Gold;
+                    if (AlmostCharged)
+                    {
+                        fontColor = Color.LightGreen;
+                    }
+                    else
+                    {
+                        fontColor = Color.Gold;
+                    }
                 }
                 else if (LowBattery)
                 {
@@ -71,10 +78,6 @@ namespace percentage
             if (PluggedIn && ChargeComplete)
             {
                 fontColor = Color.LawnGreen;
-            }
-            if (AlmostCharged)
-            {
-                fontColor = Color.LightGreen;
             }
 
             Color bgColor = Color.Transparent;
