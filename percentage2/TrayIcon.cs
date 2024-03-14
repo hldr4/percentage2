@@ -54,7 +54,7 @@ namespace percentage
             string batteryPercentage = (powerStatus.BatteryLifePercent * 100).ToString();
 
             bool ChargeComplete = (percentage == 1.0);
-            bool AlmostCharged = (0.90 >= percentage && percentage < 1.0);
+            bool AlmostCharged = (percentage >= 0.90 && percentage < 1.0);
             bool LowBattery = (percentage <= 0.20);
             bool Charging = powerStatus.BatteryChargeStatus.HasFlag(BatteryChargeStatus.Charging);
             bool PluggedIn = powerStatus.PowerLineStatus.HasFlag(PowerLineStatus.Online);
